@@ -16,7 +16,7 @@
     font-size: 1em;
     line-height: 1.4;
   }
-  
+
   div,
   main,
   section,
@@ -35,7 +35,7 @@
   
   .col {
     position: relative;
-    background-color: rgb(113, 101, 49);
+    background-color: #fff;
   }
   
   /*core styling*/
@@ -61,6 +61,83 @@
   h6 {
     font-family: Ubuntu, sans-serif;
     font-weight: 300;
+  }
+
+.homeheader {
+  display: inline-block;
+  background-color: #25c389;
+  color: #fff;
+  height: 100%;
+  width: 12%;
+  align-items: center;
+}
+
+.homehead {
+  color: #fff;
+  font-family:Ubuntu, sans-serif; 
+  font-size: small;
+}
+
+.pagesheader {
+  display: inline-block;
+  background-color: #ffb901;
+  color: #fff;
+  height: 100%;
+  width: 12%;
+}
+
+.pageshead {
+  color: #fff;
+  font-family:Ubuntu, sans-serif; 
+  font-size: small;
+}
+
+.blogheader {
+  display: inline-block;
+  background-color: #de6262;
+  color: #fff;
+  height: 100%;
+  width: 12%;
+}
+
+.bloghead {
+  color: #fff;
+  font-family:Ubuntu, sans-serif; 
+  font-size: small;
+}
+
+
+.portfolioheader {
+  display: inline-block;
+  background-color: #1691bd;
+  color: #fff;
+  height: 100%;
+  width: 12%;
+}
+
+.portfoliohead {
+  color: #fff;
+  font-family:Ubuntu, sans-serif; 
+  font-size: small;
+}
+
+.lasthomeheader {
+  display: inline-block;
+  background-color: #166ba2;
+  color: #fff;
+  height: 100%;
+  width: 12%;
+}
+
+.lasthomehead {
+  color: #fff;
+  font-family:Ubuntu, sans-serif; 
+  font-size: small;
+}
+
+  .banner {
+    background-color: #ebebeb;
+    
   }
   
   /* Small only */
