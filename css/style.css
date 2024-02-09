@@ -71,7 +71,22 @@
   width: 12%;
   align-items: center;
 }
-
+.logo{
+  width: 100%;
+}
+.menu-icon {
+  height: 4rem;
+}
+.menu-icon-grid {
+  display: flex;
+  justify-content: flex-end;
+}
+.emphasis {
+  color:#1691bd;
+}
+.general-heading {
+  text-align: center;
+}
 .homehead {
   color: #fff;
   font-family:Ubuntu, sans-serif; 
@@ -174,6 +189,12 @@
   @media screen and (max-width: 39.9375em) {
     .s-hide {
       display: none;
+    }
+    .s-col-2 {
+      grid-template-columns: 1fr 1fr; 
+    }
+    .s-col-1 {
+      grid-template-columns: 1fr; 
     }
   }
   
