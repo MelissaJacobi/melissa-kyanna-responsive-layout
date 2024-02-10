@@ -63,6 +63,10 @@
     font-weight: 300;
   }
 
+  .highlight {
+    color: #1eafde;
+  }
+
 .homeheader {
   display: inline-block;
   background-color: #25c389;
@@ -137,39 +141,97 @@
 
   .banner {
     background-color: #ebebeb;
-    
   }
 
-.footer {
-  background-color:#16242f ;
-  color:#fff;
+.minionbanner {
+  width: 100%;
+  height:auto;
+  display:block;
 }
 
-
-.quote {
-  font-family: Ubuntu, sans-serif; 
-  font-style: italic;
+.aspects {
+  transform: translateY(-300%);
+  width:300px;
+  margin-left: 100px;
 }
 
-.peewee {
-  max-width:40%; ;
-  max-height:40%;
+.metro-style {
+  background-color: #fff;
+  font-family:Ubuntu, sans-serif; 
+  font-size: 20px;
+  width: 150px;
 }
 
-.socialmedia {
-  max-width:40%; ;
-  max-height:40%;
+.metro-style::marker {
+  color:#186aa2; 
 }
 
-.miniongallery {
-  max-width:40%; ;
-  max-height:40%;
+.retina-ready {
+  background-color: #fff;
+  font-family:Ubuntu, sans-serif; 
+  font-size: 20px;
+  width: 180px;
 }
 
-.email {
-  max-width:80%; ;
-  max-height:80%;
+.retina-ready::marker {
+  color:#df6260; 
 }
+
+.responsive-design {
+  background-color: #fff;
+  font-family:Ubuntu, sans-serif; 
+  font-size: 20px;
+  width: 200px;
+}
+
+.responsive-design::marker {
+  color:#fcbb00; 
+}
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    transform: translateY(-500%);
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+    font-size: 30px;
+  }
+  
+.arrow {
+  display: inline-block;
+  line-height: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.thing-paragraph {
+  text-align:center;
+}
+
+.main-heading {
+  text-align:center;
+}
+
+.sub-heading {
+  text-align:center;
+}
+
+.sub-sub-heading {
+  text-align:center;
+}
+
+.call-to-action {
+  text-align:center;
+}
+
   /* Small only */
   @media screen and (max-width: 39.9375em) {
     .s-hide {

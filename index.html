@@ -19,6 +19,10 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"/>
 </head>
 
 <body>
@@ -55,19 +59,27 @@
   <div class="banner">
     <div class="row m-col-1 l-col-1 s-hide">
       <div class="col">
-        <img src="minionbanner.png" alt="minionbanner">
+        <img src="minionbanner.png" alt="minionbanner" class="minionbanner">
         <ul class="aspects">
-          <li>Metro Style</li>
-          <li>Retina Ready</li>
-          <li>Responsive Design</li>
+          <li class="metro-style">Metro Style</li>
+          <li class="retina-ready">Retina Ready</li>
+          <li class="responsive-design">Responsive Design</li>
         </ul>
+          <div class="button-container">
+            <button class="previous">
+              <span class="arrow">&lt;</span>
+            </button>
+            <button class="next">
+              <span class="arrow">&gt;</span>
+            </button>
+          </div>
       </div>
     </div>
   </div>
   <div class="intro">
     <div class="row m-col-1 l-col-1">
       <div class="col">
-        <h1 class="main-heading">Hey guys! This is the Metrolics theme. It sports a responsive layout with a mobile layout.</h1>
+        <h1 class="main-heading">Hey guys! This is the <span class="highlight">Metrolics</span> theme.<br> It sports a responsive layout with a mobile layout.</h1>
       </div>
     </div>
   </div>
@@ -80,27 +92,27 @@
       <div class="col">
         <img src="solutions.png" alt="lightbulb">
         <h3 class="sub-sub-heading">Web solutions</h3>
-        <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
+        <p class="thing-paragraph">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
       </div>
       <div class="col">
         <img src="photography.png" alt="landscape">
         <h3 class="sub-sub-heading">Photography</h3>
-        <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
+        <p class="thing-paragraph">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
       </div>
       <div class="col">
         <img src="development.png" alt="gears">
         <h3 class="sub-sub-heading">Web Development</h3>
-      <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
+      <p class="thing-paragraph">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
       </div>
       <div class="col">
         <img src="design.png" alt="pencil">
         <h3 class="sub-sub-heading">Web Design</h3>
-        <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
+        <p class="thing-paragraph">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
       </div>
     </div>
   </div>
   <div class="blog">
-    <div class="row l-col-3 m-col-2">
+    <div class="row l-col-3 m-col-2" >
       <div class="col l-row-span m-row-span">
         <h2 class="sub-heading">Whats Up Lately?</h2>
         <h4 class="call-to-action">Read up on our latest work</h4>
@@ -120,7 +132,7 @@
     <div class="row l-col-3 m-col-2">
       <div class="col l-row-span m-row-span">
         <h2 class="sub-heading">Our Latest Projects</h2>
-        <h4 class="our-purpose">Client happy? We are happy.</h4>
+        <h4 class="call-to-action">Client happy? We are happy.</h4>
       </div>
       <div class="col">
         <img src="bluesample.png">
@@ -146,7 +158,7 @@
     <div class="row l-col-1 m-col-1">
       <div class="col l-row-span m-row-span">
         <h2 class="sub-heading">Thingsofabove</h2>
-        <h4 class="detail">Misc stuff we could not put anyplace else</h4>
+        <h4 class="call-to-action">Misc stuff we could not put anyplace else</h4>
       </div>
       <div class="col">
         <img src="samplemenu.png">
