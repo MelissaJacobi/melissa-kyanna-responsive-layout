@@ -32,6 +32,12 @@
   .header {
     padding: 0;
   }
+  .header-nest {
+    padding: 0;
+  }
+  .a-tags {
+    padding: 0;
+  }
   /*core layout*/
   
   .row {
@@ -57,6 +63,7 @@
   
   p { 
     font-family: "Open Sans", sans-serif;
+    margin-top: 0;
   }
   
   h1,
@@ -159,10 +166,12 @@
 
 .banner {
   background-color: #ebebeb;
+  padding: 0;
+  height: 24rem;
+
 }
 .minionbanner {
-  width: 100%;
-  height:auto;
+  height: 24rem;
   display:block;
 }
 
@@ -299,7 +308,12 @@ font-weight: bold;
 .flickr-line {
   background-color: #ffb901;
 }
-
+.tweets {
+  display: flex;
+}
+.twitter-logo {
+  height: 3rem;
+}
 .quote {
   font-family: Ubuntu, sans-serif; 
   font-style: italic;
@@ -376,6 +390,17 @@ font-weight: bold;
     }
     .peewee {
       height: 5rem;
+    }
+    .banner {
+      background-color: #ebebeb;
+      padding: 0;
+      height: 19.5rem;
+    
+    }
+    .minionbanner {
+      height: 19.5rem;
+      width: 100%;
+      display:block;
     }
     
   }
