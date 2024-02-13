@@ -109,11 +109,16 @@
 .general-heading {
   text-align: center;
 }
+
+.headerpics {
+  margin-left:20px;
+}
+
 .pagesheader {
   display: inline-block;
   background-color: #ffb901;
   color: #fff;
-  height: 100%;
+  height: 102%;
   width: 19%;
   margin: -0.25rem;
 }
@@ -121,7 +126,7 @@
   display: inline-block;
   background-color: #de6262;
   color: #fff;
-  height: 100%;
+  height: 101%;
   width: 19%;
   margin: -0.25rem;
 }
@@ -196,7 +201,7 @@
 }
 
 .aspects {
-  transform: translateY(-300%);
+  transform: translateY(-350%);
   width:300px;
   margin-left: 100px;
   font-family:Ubuntu, sans-serif; 
@@ -253,17 +258,17 @@
   display: flex;
   justify-content: space-between;
   width: auto;
-  transform: translateY(-300%);
+  transform: translateY(-250%);
 }
 
 button {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border: 5px solid #fff;
   border-radius: 50%;
   color: #fff;
   background-color: rgba(0,0,0,0);
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .arrow {
@@ -367,6 +372,7 @@ font-weight: bold;
   height: 0.1rem;
   background-color:  #ebebeb;
 }
+
   /* Small only */
   @media screen and (max-width: 39.9375em) {
     .s-hide {
