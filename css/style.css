@@ -26,11 +26,19 @@
   main,
   section,
   footer {
-    padding: 0.5rem;
+    padding: 1rem;
   }
 
   .header {
     padding: 0;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+  .detail,
+  .our-purpose,
+  .call-to-action {
+    color: grey;
   }
   .header-nest {
     padding: 0;
@@ -89,7 +97,7 @@
   width: 100%;
 }
 .menu-icon {
-  height: 4rem;
+  height: 4.5rem;
 }
 .menu-icon-grid {
   display: flex;
@@ -173,6 +181,18 @@
 .minionbanner {
   height: 24rem;
   display:block;
+}
+
+.description {
+  color: grey;
+  text-align: center;
+}
+
+.specialty-content {
+  font-weight: bold;
+}
+.specialty-item{
+  padding: 0;
 }
 
 .aspects {
@@ -272,9 +292,11 @@ font-weight: bold;
 .call-to-action {
   text-align:center;
 }
-
-
 .blog-post {
+  width: 100%;
+  height: 100%;
+}
+.sample-menu {
   width: 100%;
 }
 .program{
@@ -313,6 +335,8 @@ font-weight: bold;
 }
 .twitter-logo {
   height: 3rem;
+  margin: 0.5rem;
+  margin-left: -1.5rem;
 }
 .quote {
   font-family: Ubuntu, sans-serif; 
@@ -328,6 +352,20 @@ font-weight: bold;
 }
 .socialmedia {
   width: 100%;
+}
+.line {
+  width: 100%;
+  border: none;
+  border-left: 7rem solid #1691bd;
+  height: 0.025rem;
+  background-color:  #ebebeb;
+}
+.middle-line {
+  width: 100%;
+  border: none;
+  border-left: 20rem solid #1691bd;
+  height: 0.1rem;
+  background-color:  #ebebeb;
 }
   /* Small only */
   @media screen and (max-width: 39.9375em) {
@@ -357,7 +395,14 @@ font-weight: bold;
     }
     .footer-color-bar {
       width: 60%;
+      margin: auto;
+      transform: translateY(1.9rem);
     }
+    .description,
+    .specialty-content {
+      text-align: left;
+    }
+    
     
   }
   
@@ -401,6 +446,17 @@ font-weight: bold;
       height: 19.5rem;
       width: 100%;
       display:block;
+    }
+    .footer-color-bar {
+      width: 100%;
+      height: 1rem;
+      margin: auto;
+      transform: translateX(20rem) translateY(1.9rem);
+    }
+    .specialty-icon {
+      margin: auto;
+      width: 50%;
+      display: block;
     }
     
   }
@@ -454,6 +510,13 @@ font-weight: bold;
     .l-hide {
       display: none;
     }
+    .footer-color-bar {
+      width: 100%;
+      height: 1rem;
+      margin: auto;
+      transform: translateX(45rem) translateY(1.9rem);
+    }
+    
   }
   
   /* Large only */
